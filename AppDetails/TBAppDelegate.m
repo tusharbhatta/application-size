@@ -3,7 +3,7 @@
 //  AppDetails
 //
 //  Created by Tushar Bhattacharyya on 26/05/12.
-//  Copyright (c) 2012 Castlerock Research. All rights reserved.
+//  Copyright (c) 2012 __My_Compnay__. All rights reserved.
 //
 
 #import "TBAppDelegate.h"

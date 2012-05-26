@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		789832EF1570957000E161AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789832EE1570957000E161AA /* UIKit.framework */; };
+		789832F11570957000E161AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789832F01570957000E161AA /* Foundation.framework */; };
+		789832F31570957000E161AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789832F21570957000E161AA /* CoreGraphics.framework */; };
+		789832F91570957000E161AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789832F71570957000E161AA /* InfoPlist.strings */; };
+		789832FB1570957000E161AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789832FA1570957000E161AA /* main.m */; };
+		789832FF1570957000E161AA /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789832FE1570957000E161AA /* TBAppDelegate.m */; };
+		789833021570957000E161AA /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789833011570957000E161AA /* TBViewController.m */; };
+		789833051570957000E161AA /* TBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789833031570957000E161AA /* TBViewController_iPhone.xib */; };
+		789833081570957000E161AA /* TBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789833061570957000E161AA /* TBViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		789832EA1570957000E161AA /* AppDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789832EE1570957000E161AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		789832F01570957000E161AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		789832F21570957000E161AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		789832F61570957000E161AA /* AppDetails-Info.plist */ = {isa = PBXFileReference; path = "AppDetails-Info.plist"; sourceTree = "<group>"; };
+		789832F81570957000E161AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		789832FA1570957000E161AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		789832FC1570957000E161AA /* AppDetails-Prefix.pch */ = {isa = PBXFileReference; path = "AppDetails-Prefix.pch"; sourceTree = "<group>"; };
+		789832FD1570957000E161AA /* TBAppDelegate.h */ = {isa = PBXFileReference; path = TBAppDelegate.h; sourceTree = "<group>"; };
+		789832FE1570957000E161AA /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
+		789833001570957000E161AA /* TBViewController.h */ = {isa = PBXFileReference; path = TBViewController.h; sourceTree = "<group>"; };
+		789833011570957000E161AA /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
+		789833041570957000E161AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBViewController_iPhone.xib; sourceTree = "<group>"; };
+		789833071570957000E161AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789832E71570957000E161AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789832EF1570957000E161AA /* UIKit.framework in Frameworks */,
+				789832F11570957000E161AA /* Foundation.framework in Frameworks */,
+				789832F31570957000E161AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		789832DF1570957000E161AA = {
+			isa = PBXGroup;
+			children = (
+				789832F41570957000E161AA /* AppDetails */,
+				789832ED1570957000E161AA /* Frameworks */,
+				789832EB1570957000E161AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		789832EB1570957000E161AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789832EA1570957000E161AA /* AppDetails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789832ED1570957000E161AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				789832EE1570957000E161AA /* UIKit.framework */,
+				789832F01570957000E161AA /* Foundation.framework */,
+				789832F21570957000E161AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		789832F41570957000E161AA /* AppDetails */ = {
+			isa = PBXGroup;
+			children = (
+				789832FD1570957000E161AA /* TBAppDelegate.h */,
+				789832FE1570957000E161AA /* TBAppDelegate.m */,
+				789833001570957000E161AA /* TBViewController.h */,
+				789833011570957000E161AA /* TBViewController.m */,
+				789833031570957000E161AA /* TBViewController_iPhone.xib */,
+				789833061570957000E161AA /* TBViewController_iPad.xib */,
+				789832F51570957000E161AA /* Supporting Files */,
+			);
+			path = AppDetails;
+			sourceTree = "<group>";
+		};
+		789832F51570957000E161AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				789832F61570957000E161AA /* AppDetails-Info.plist */,
+				789832F71570957000E161AA /* InfoPlist.strings */,
+				789832FA1570957000E161AA /* main.m */,
+				789832FC1570957000E161AA /* AppDetails-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789832E91570957000E161AA /* AppDetails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7898330B1570957000E161AA /* Build configuration list for PBXNativeTarget "AppDetails" */;
+			buildPhases = (
+				789832E61570957000E161AA /* Sources */,
+				789832E71570957000E161AA /* Frameworks */,
+				789832E81570957000E161AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDetails;
+			productName = AppDetails;
+			productReference = 789832EA1570957000E161AA /* AppDetails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789832E11570957000E161AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Castlerock Research";
+			};
+			buildConfigurationList = 789832E41570957000E161AA /* Build configuration list for PBXProject "AppDetails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 789832DF1570957000E161AA;
+			productRefGroup = 789832EB1570957000E161AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789832E91570957000E161AA /* AppDetails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789832E81570957000E161AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789832F91570957000E161AA /* InfoPlist.strings in Resources */,
+				789833051570957000E161AA /* TBViewController_iPhone.xib in Resources */,
+				789833081570957000E161AA /* TBViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789832E61570957000E161AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789832FB1570957000E161AA /* main.m in Sources */,
+				789832FF1570957000E161AA /* TBAppDelegate.m in Sources */,
+				789833021570957000E161AA /* TBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		789832F71570957000E161AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789832F81570957000E161AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		789833031570957000E161AA /* TBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789833041570957000E161AA /* en */,
+			);
+			name = TBViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		789833061570957000E161AA /* TBViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789833071570957000E161AA /* en */,
+			);
+			name = TBViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789833091570957000E161AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7898330A1570957000E161AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7898330C1570957000E161AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppDetails/AppDetails-Prefix.pch";
+				INFOPLIST_FILE = "AppDetails/AppDetails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7898330D1570957000E161AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppDetails/AppDetails-Prefix.pch";
+				INFOPLIST_FILE = "AppDetails/AppDetails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789832E41570957000E161AA /* Build configuration list for PBXProject "AppDetails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789833091570957000E161AA /* Debug */,
+				7898330A1570957000E161AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7898330B1570957000E161AA /* Build configuration list for PBXNativeTarget "AppDetails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898330C1570957000E161AA /* Debug */,
+				7898330D1570957000E161AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 789832E11570957000E161AA /* Project object */;
+}
